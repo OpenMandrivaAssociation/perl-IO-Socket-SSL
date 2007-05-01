@@ -1,8 +1,8 @@
 %define module  IO-Socket-SSL
 %define name    perl-%{module}
-%define version 0.99.9
-%define revision 0.999
-%define release %mkrel 2
+%define version 1.06
+%define revision %{version}
+%define release %mkrel 1
 
 Name:           %{name}
 Version:        %{version}
