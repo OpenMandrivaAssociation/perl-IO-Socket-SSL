@@ -18,7 +18,6 @@ BuildRequires:  perl-devel
 %endif
 BuildRequires:  perl(Net::SSLeay) >= 1.21
 BuildArch:      noarch
-BuildRoot:      %{_tmppath}/%{name}-%{version}
 
 %description
 IO::Socket::SSL is a class implementing an object oriented
