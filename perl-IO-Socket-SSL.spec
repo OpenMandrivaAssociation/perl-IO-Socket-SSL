@@ -1,5 +1,5 @@
 %define upstream_name    IO-Socket-SSL
-%define upstream_version 1.37
+%define upstream_version 1.38
 
 Name:           perl-%{upstream_name}
 Version:        %perl_convert_version %{upstream_version}
