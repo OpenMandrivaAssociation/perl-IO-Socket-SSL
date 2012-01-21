@@ -3,7 +3,7 @@
 
 Name:           perl-%{upstream_name}
 Version:        %perl_convert_version %{upstream_version}
-Release:        %mkrel 2
+Release:        %mkrel 3
 
 Summary:        Nearly transparent SSL encapsulation for IO::Socket::INET
 License:        GPL+ or Artistic
