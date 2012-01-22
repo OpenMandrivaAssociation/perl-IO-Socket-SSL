@@ -1,19 +1,15 @@
 %define upstream_name    IO-Socket-SSL
-%define upstream_version 1.44
+%define upstream_version 1.54
 
 Name:           perl-%{upstream_name}
 Version:        %perl_convert_version %{upstream_version}
-Release:        %mkrel 4
+Release:        %mkrel 1
 
 Summary:        Nearly transparent SSL encapsulation for IO::Socket::INET
 License:        GPL+ or Artistic
 Group:          Development/Perl
 URL:            http://search.cpan.org/dist/%{upstream_name}/
 Source0:        http://www.cpan.org/modules/by-module/IO/%{upstream_name}-%{upstream_version}.tar.gz
-
-%if %{mdkversion} < 1010
-BuildRequires:  perl-devel
-%endif
 BuildRequires:  perl(Net::SSLeay) >= 1.21
 BuildArch:      noarch
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}
