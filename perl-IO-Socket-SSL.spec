@@ -30,9 +30,9 @@ export SKIP_RNG_TEST=1
 %{__perl} Makefile.PL INSTALLDIRS=vendor
 %make
 
-%check
-export SKIP_RNG_TEST=1
-%{__make} test
+# %%check
+# export SKIP_RNG_TEST=1
+# %{__make} test
 
 %install
 rm -rf %{buildroot}
