@@ -1,21 +1,21 @@
 %define upstream_name    IO-Socket-SSL
 %define upstream_version 1.76
 
-Name:           perl-%{upstream_name}
-Version:        %perl_convert_version %{upstream_version}
-Release:        2
+Name:			perl-%{upstream_name}
+Version:		%perl_convert_version %{upstream_version}
+Release:		2
 
-Summary:        Nearly transparent SSL encapsulation for IO::Socket::INET
-License:        GPL+ or Artistic
-Group:          Development/Perl
-URL:            http://search.cpan.org/dist/%{upstream_name}/
-Source0:        http://www.cpan.org/modules/by-module/IO/%{upstream_name}-%{upstream_version}.tar.gz
-BuildRequires:  perl-devel
-BuildRequires:  perl(Net::SSLeay) >= 1.21
-BuildRequires:  perl(IO::Socket::INET6)
-BuildArch:      noarch
-BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}
-Requires:       perl(Net::SSLeay) >= 1.21
+Summary:		Nearly transparent SSL encapsulation for IO::Socket::INET
+License:		GPL+ or Artistic
+Group:			Development/Perl
+URL:			http://search.cpan.org/dist/%{upstream_name}/
+Source0:		http://www.cpan.org/modules/by-module/IO/%{upstream_name}-%{upstream_version}.tar.gz
+BuildRequires:	perl-devel
+BuildRequires:	perl(Net::SSLeay) >= 1.21
+BuildRequires:	perl(IO::Socket::INET6)
+BuildRequires:	perl(JSON::PP)
+BuildArch:		noarch
+Requires:		perl(Net::SSLeay) >= 1.21
 
 %description
 IO::Socket::SSL is a class implementing an object oriented
@@ -36,11 +36,7 @@ export SKIP_RNG_TEST=1
 # %{__make} test
 
 %install
-rm -rf %{buildroot}
 %makeinstall_std
-
-%clean
-rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root)
