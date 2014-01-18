@@ -1,2 +1,4 @@
+removed_sources:
+  IO-Socket-SSL-1.76.tar.gz: b27cfff3b5cf03f223431317abda03d44d1a902d
 sources:
-  "IO-Socket-SSL-1.76.tar.gz": b27cfff3b5cf03f223431317abda03d44d1a902d
+  IO-Socket-SSL-1.953.tar.gz: d8155bb2a5e1206dc60a28fdc6f2b67d84f748f7
