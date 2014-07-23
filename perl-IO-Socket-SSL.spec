@@ -1,5 +1,5 @@
 %define modname	IO-Socket-SSL
-%define modver 1.992
+%define modver 1.994
 
 Summary:	Nearly transparent SSL encapsulation for IO::Socket::INET
 
@@ -11,7 +11,7 @@ Summary:	Nearly transparent SSL encapsulation for IO::Socket::INET
 
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	2
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}/
@@ -48,15 +48,3 @@ export SKIP_RNG_TEST=1
 %doc README Changes util docs certs
 %{perl_vendorlib}/IO
 %{_mandir}/man3/*
-
-
-
-
-
-
-
-
-
-
-
-
