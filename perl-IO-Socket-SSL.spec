@@ -1,5 +1,5 @@
 %define modname	IO-Socket-SSL
-%define modver 1.997
+%define modver 1.998
 
 Summary:	Nearly transparent SSL encapsulation for IO::Socket::INET
 
