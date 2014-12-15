@@ -15,5 +15,6 @@ removed_sources:
   IO-Socket-SSL-1.997.tar.gz: cc648f8ee2632cdc77282ced5cd4063ba55cda71
   IO-Socket-SSL-1.998.tar.gz: 3939b82d0fa54d58c935a55f4a8dde76b5b28899
   IO-Socket-SSL-2.000.tar.gz: c2397a0e6fd5e94437cd7e05567efd9a362a0563
-sources:
   IO-Socket-SSL-2.002.tar.gz: 6eff55158562d742ba7b078f1756f5fe3a0820bf
+sources:
+  IO-Socket-SSL-2.007.tar.gz: c70130d88ef23ed49f412a3201b8534bb3212b6b
