@@ -1,17 +1,10 @@
 %define modname	IO-Socket-SSL
-%define modver 2.007
+%define modver 2.052
 
 Summary:	Nearly transparent SSL encapsulation for IO::Socket::INET
-
-
-
-
-
-
-
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	4
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}/
@@ -34,7 +27,7 @@ interface methods.
 
 %build
 export SKIP_RNG_TEST=1
-perl Makefile.PL INSTALLDIRS=vendor
+echo n |perl Makefile.PL INSTALLDIRS=vendor
 %make
 
 # %%check
@@ -45,6 +38,6 @@ perl Makefile.PL INSTALLDIRS=vendor
 %makeinstall_std
 
 %files
-%doc README Changes util docs certs
+%doc README Changes docs certs
 %{perl_vendorlib}/IO
 %{_mandir}/man3/*

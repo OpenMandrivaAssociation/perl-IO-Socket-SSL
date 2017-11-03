@@ -1,20 +1,2 @@
-removed_sources:
-  IO-Socket-SSL-1.76.tar.gz: b27cfff3b5cf03f223431317abda03d44d1a902d
-  IO-Socket-SSL-1.953.tar.gz: d8155bb2a5e1206dc60a28fdc6f2b67d84f748f7
-  IO-Socket-SSL-1.967.tar.gz: 0cce073c32715928dbb95e64696c6c7165f19ccb
-  IO-Socket-SSL-1.968.tar.gz: 81c8c5e13ba208ac6e20d164d4bb7221ad31b567
-  IO-Socket-SSL-1.970.tar.gz: 5f4c46d3f71587ac0606862eaedbb620f576d193
-  IO-Socket-SSL-1.975.tar.gz: cf2b311a5007611ca6a9976af7af22269e88a69d
-  IO-Socket-SSL-1.981.tar.gz: 0b0be81f9c1c05569d339a39ee7bbdd7bc2c80e4
-  IO-Socket-SSL-1.982.tar.gz: 6e2cc585dce272d90256a0c805b479dd8a0bb796
-  IO-Socket-SSL-1.983.tar.gz: 706d9c5ccd2391c70236ac98a71ac6320a89beed
-  IO-Socket-SSL-1.985.tar.gz: 49a1e1acb3eb2df5dbfcd34975ff2a6268ef12ce
-  IO-Socket-SSL-1.991.tar.gz: d91c69dc16818f345d7c183e3358cc3062dc14ec
-  IO-Socket-SSL-1.992.tar.gz: b0313bb650bc931b340ca50549bfe781d5b5baab
-  IO-Socket-SSL-1.994.tar.gz: 7fcdf9c7a2bd5f136aa87aaa00bbf2beaa469759
-  IO-Socket-SSL-1.997.tar.gz: cc648f8ee2632cdc77282ced5cd4063ba55cda71
-  IO-Socket-SSL-1.998.tar.gz: 3939b82d0fa54d58c935a55f4a8dde76b5b28899
-  IO-Socket-SSL-2.000.tar.gz: c2397a0e6fd5e94437cd7e05567efd9a362a0563
-  IO-Socket-SSL-2.002.tar.gz: 6eff55158562d742ba7b078f1756f5fe3a0820bf
 sources:
-  IO-Socket-SSL-2.007.tar.gz: c70130d88ef23ed49f412a3201b8534bb3212b6b
+  IO-Socket-SSL-2.052.tar.gz: 06ee7899ee4bdb89406e6960062821ef959bb7d5
