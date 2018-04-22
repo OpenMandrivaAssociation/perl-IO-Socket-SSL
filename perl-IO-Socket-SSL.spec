@@ -14,6 +14,7 @@ BuildRequires:	perl-devel
 BuildRequires:	perl(Net::SSLeay) >= 1.21
 BuildRequires:	perl(IO::Socket::INET6)
 BuildRequires:	perl(JSON::PP)
+BuildRequires:  perl(Test)
 Requires:	perl(Net::SSLeay) >= 1.21
 
 %description
