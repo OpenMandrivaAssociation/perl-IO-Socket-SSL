@@ -1,5 +1,5 @@
 %define modname	IO-Socket-SSL
-%define modver 2.052
+%define modver 2.056
 
 Summary:	Nearly transparent SSL encapsulation for IO::Socket::INET
 Name:		perl-%{modname}
@@ -31,9 +31,9 @@ export SKIP_RNG_TEST=1
 echo n |perl Makefile.PL INSTALLDIRS=vendor
 %make
 
-# %%check
+# %check
 # export SKIP_RNG_TEST=1
-# %make test
+# make test
 
 %install
 %makeinstall_std
