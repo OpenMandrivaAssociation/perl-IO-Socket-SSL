@@ -2,7 +2,7 @@
 
 Summary:	Nearly transparent SSL encapsulation for IO::Socket::INET
 Name:		perl-%{modname}
-Version:	2.089
+Version:	2.094
 Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
