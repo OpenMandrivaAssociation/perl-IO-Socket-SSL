@@ -9,6 +9,7 @@ Group:		Development/Perl
 Url:		https://metacpan.org/pod/IO::Socket::SSL
 Source0:	https://www.cpan.org/modules/by-module/IO/%{modname}-%{version}.tar.gz
 BuildArch:	noarch
+BuildRequires:	make
 BuildRequires:	perl-devel
 BuildRequires:	perl(Net::SSLeay)
 BuildRequires:	perl(IO::Socket::INET6)
